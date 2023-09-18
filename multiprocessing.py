@@ -6,7 +6,7 @@ def run_camera_module():
 
 def run_robot_module():
     subprocess.call(["python3", "robot_module.py"])
-
+ 
 if __name__ == "__main__":
 
     print("Started.")
